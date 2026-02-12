@@ -380,7 +380,7 @@ export const AboutExperience = () => {
             Meet Our Weavers
           </h2>
           <p className="mt-4 text-gray-medium font-body max-w-xl mx-auto">
-            Every JIMBA piece is attributed to its weaver. These are the masters
+            Every Daji piece is attributed to its weaver. These are the masters
             preserving centuries of tradition.
           </p>
         </motion.div>

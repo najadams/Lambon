@@ -46,7 +46,7 @@ const HeroSection = () => (
         className="space-y-6"
       >
         <span className="text-gold text-sm uppercase tracking-[0.3em] block">
-          The JIMBA Collection
+          The Daji Collection
         </span>
         <h1 className="text-display-hero font-display text-white leading-tight">
           Shop Our Pieces

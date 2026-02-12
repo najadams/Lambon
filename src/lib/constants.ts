@@ -1,11 +1,11 @@
 export const BRAND = {
-  name: "JIMBA",
-  tagline: "Woven heritage. Worn with purpose.",
+  name: "Daji",
+  tagline: "The Wilderness. The Weaver. The Way.",
   description:
     "Premium Northern Ghanaian smocks for professionals. Authentic handwoven craftsmanship meeting modern leadership.",
-  email: "hello@jimba.com",
+  email: "hello@daji.com",
   whatsapp: "+233XXXXXXXXX",
-  instagram: "@jimbaafrica",
+  instagram: "@wear_daji",
 } as const;
 
 export const NAVIGATION = [

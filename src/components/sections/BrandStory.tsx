@@ -61,33 +61,34 @@ export function BrandStory() {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 1.2, ease: "easeOut", delay: 0.1 }}
           >
             <p className="font-sans text-xs font-medium uppercase tracking-[0.3em] text-gold">
               The Custodian
             </p>
 
             <h2 className="mt-4 font-display text-display-section font-semibold leading-tight text-white">
-              Protecting Craft.
+              The Royal Forest.
               <br />
-              Translating Dignity.
+              The Living Story.
             </h2>
 
             <div className="mt-6 space-y-4 font-body text-body-lg leading-relaxed text-gray-light">
               <p>
-                For generations, master weavers of Northern Ghana have practiced
-                an ancient art—transforming cotton into fabric that carries
-                cultural meaning, spiritual protection, and social status.
+                In the heart of Northern Ghana, beyond the bustling towns, lies
+                the <span className="text-white font-medium">Daji</span> — the
+                royal forest, where nature teaches patience, rhythm, and
+                resilience.
               </p>
               <p>
-                JIMBA exists to preserve this tradition economically, ensuring
-                that weaving remains a viable livelihood while placing African
-                identity inside modern power spaces. Every smock tells the story
-                of its weaver, their community, and centuries of inherited
-                knowledge.
+                Long before fast fashion, Northern weavers worked with the same
+                patience that the trees take to grow, threading history into every
+                strand of fugu. Daji is born from this legacy: each handwoven
+                smock carries the rhythm of the loom, the story of a village, and
+                the dignity of a forest that preserves life across generations.
               </p>
               <p className="font-semibold text-white">
-                &ldquo;I am modern, but I know where I come from.&rdquo;
+                &ldquo;Wearing Daji is stepping into a living story.&rdquo;
               </p>
             </div>
 

@@ -9,17 +9,17 @@
 
 :root {
   /* Brand Colors */
-  --color-primary: #8b4513;
-  --color-secondary: #d2691e;
-  --color-accent: #c41e3a;
-  --color-gold: #d4af37;
+  --color-primary: #1a2f23;
+  --color-secondary: #3d2914;
+  --color-accent: #c5a059;
+  --color-gold: #c5a059;
 
   /* Neutrals */
   --color-white: #ffffff;
-  --color-off-white: #f8f7f5;
+  --color-off-white: #f0efeb;
   --color-gray-light: #e8e6e1;
   --color-gray-medium: #8b8680;
-  --color-dark: #1a1815;
+  --color-dark: #050505;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -97,6 +97,18 @@ body {
 
   .animate-delay-400 {
     animation-delay: 0.4s;
+  }
+
+  .animate-delay-500 {
+    animation-delay: 0.5s;
+  }
+  
+  .duration-2000 {
+    animation-duration: 2s;
+  }
+  
+  .duration-3000 {
+    animation-duration: 3s;
   }
 }
 

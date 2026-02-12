@@ -459,7 +459,7 @@ const LocationSection = () => (
             Made in Northern Ghana
           </h2>
           <p className="text-gray-medium font-body leading-relaxed mb-6">
-            Every JIMBA piece is handwoven in the Northern Region of Ghana, home
+            Every Daji piece is handwoven in the Northern Region of Ghana, home
             to centuries of weaving tradition. Our weavers work from Tamale,
             Bolgatanga, and surrounding communities.
           </p>

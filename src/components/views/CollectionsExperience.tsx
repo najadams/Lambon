@@ -240,7 +240,7 @@ export const CollectionsExperience = () => {
             </h1>
             <p className="text-lg text-gray-medium max-w-xl mx-auto font-body italic">
               From ancestral ceremony to contemporary boardroom. Discover the
-              full JIMBA universe.
+              full Daji universe.
             </p>
 
             {/* Quick stats */}

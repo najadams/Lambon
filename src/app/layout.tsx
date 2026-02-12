@@ -28,12 +28,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "JIMBA – Premium Ghanaian Smock Brand",
-    template: "%s | JIMBA",
+    default: "Daji – Premium Ghanaian Smock Brand",
+    template: "%s | Daji",
   },
   description:
-    "Woven heritage. Worn with purpose. Discover authentic Northern Ghanaian handwoven smocks for professionals. Premium craftsmanship meeting modern leadership.",
+    "The Wilderness. The Weaver. The Way. Discover authentic Northern Ghanaian handwoven smocks for professionals. Premium craftsmanship meeting modern leadership.",
   keywords: [
+    "Daji",
     "Ghanaian smock",
     "heritage fashion",
     "African apparel",
@@ -45,29 +46,29 @@ export const metadata: Metadata = {
     "African professional",
     "cultural fashion",
   ],
-  authors: [{ name: "JIMBA" }],
-  creator: "JIMBA",
-  metadataBase: new URL("https://jimba.com"),
+  authors: [{ name: "Daji" }],
+  creator: "Daji",
+  metadataBase: new URL("https://wear-daji.com"),
   openGraph: {
-    title: "JIMBA – Premium Ghanaian Smock Brand",
+    title: "Daji – Premium Ghanaian Smock Brand",
     description:
-      "Woven heritage. Worn with purpose. Authentic Northern Ghanaian smocks for professionals.",
+      "The Wilderness. The Weaver. The Way. Authentic Northern Ghanaian smocks for professionals.",
     type: "website",
     locale: "en_US",
-    siteName: "JIMBA",
+    siteName: "Daji",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "JIMBA - Premium Ghanaian Smock Brand",
+        alt: "Daji - Premium Ghanaian Smock Brand",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "JIMBA – Premium Ghanaian Smock Brand",
-    description: "Woven heritage. Worn with purpose.",
+    title: "Daji – Premium Ghanaian Smock Brand",
+    description: "The Wilderness. The Weaver. The Way.",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -79,7 +80,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#8B4513",
+  themeColor: "#1A2F23",
 };
 
 export default function RootLayout({

@@ -9,20 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Brand Colors - Earth tones reflecting Ghanaian textiles
-        primary: "#8B4513",
-        secondary: "#D2691E",
-        accent: "#C41E3A",
-        gold: "#D4AF37",
+        // Brand Colors - Dark Luxury Theme (Daji - The Wilderness)
+        primary: "#1A2F23", // Deep Forest Green
+        secondary: "#3D2914", // Rich Earth
+        accent: "#C5A059", // Muted Gold
+        gold: "#C5A059", // Muted Gold alias
         // Palmer Inspiration
         "palmer-beige": "#f5f5f5",
         "palmer-charcoal": "#333333",
-        "palmer-accent": "#D4AF37", // Reusing gold as accent
+        "palmer-accent": "#C5A059",
         // Neutrals
-        "off-white": "#F8F7F5",
+        "off-white": "#F0EFEB", // Slightly warmer/darker off-white
         "gray-light": "#E8E6E1",
         "gray-medium": "#8B8680",
-        dark: "#1A1815",
+        dark: "#050505", // Jet Black
       },
       fontFamily: {
         display: ["var(--font-playfair)", "serif"],
@@ -45,6 +45,8 @@ const config: Config = {
         "fade-in-up": "fadeInUp 0.8s ease-out forwards",
         "fade-in": "fadeIn 0.6s ease-out forwards",
         "scale-in": "scaleIn 0.5s ease-out forwards",
+        "fade-in-slow": "fadeIn 1.5s ease-out forwards",
+        "fade-in-up-slow": "fadeInUp 1.2s ease-out forwards",
       },
       keyframes: {
         fadeInUp: {
