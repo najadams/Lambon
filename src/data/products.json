@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "id": "heritage-001",
+      "name": "Royal Indigo Heritage",
+      "collection": "heritage",
+      "price": 580,
+      "priceCurrency": "GHS",
+      "description": "A striking traditional smock in deep indigo featuring the classic square pattern weave. This piece honors the ancestral weaving traditions of Northern Ghana with authentic double-weave construction.",
+      "images": [
+        "/images/products/heritage-001-1.jpg",
+        "/images/products/heritage-001-2.jpg",
+        "/images/products/heritage-001-3.jpg"
+      ],
+      "weaver": {
+        "id": "weaver-001",
+        "name": "Alhaji Mohammed",
+        "region": "Tamale, Northern Region",
+        "yearsExperience": 30
+      },
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "materials": "100% handwoven cotton",
+      "construction": "Double-weave traditional technique",
+      "careInstructions": "Hand wash in cool water. Air dry flat. Iron on medium heat with steam.",
+      "symbolism": "Indigo represents authority, trust, and spiritual protection in Northern Ghanaian traditions. The square pattern symbolizes stability and connection to the land.",
+      "featured": true
+    },
+    {
+      "id": "statesman-001",
+      "name": "Executive Brown Statesman",
+      "collection": "statesman",
+      "price": 750,
+      "priceCurrency": "GHS",
+      "description": "Refined professional smock in warm chocolate brown. Tailored for the modern office with traditional craftsmanship. Perfect for board meetings, state dinners, and institutional events.",
+      "images": [
+        "/images/products/statesman-001-1.jpg",
+        "/images/products/statesman-001-2.jpg",
+        "/images/products/statesman-001-3.jpg"
+      ],
+      "weaver": {
+        "id": "weaver-002",
+        "name": "Hajia Zainab",
+        "region": "Bolgatanga, Upper East Region",
+        "yearsExperience": 25
+      },
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "materials": "100% handwoven cotton",
+      "construction": "Traditional single-weave with refined finishing",
+      "careInstructions": "Hand wash in cool water. Air dry flat. Iron on medium heat with steam.",
+      "symbolism": "Brown earth tones represent grounding, wisdom, and leadership in African traditions.",
+      "featured": true
+    },
+    {
+      "id": "statesman-002",
+      "name": "Burgundy Authority Statesman",
+      "collection": "statesman",
+      "price": 800,
+      "priceCurrency": "GHS",
+      "description": "Distinguished smock in deep burgundy with subtle pattern variations. A statement piece for those who lead with quiet confidence. Worn by CEOs, government officials, and institutional leaders.",
+      "images": [
+        "/images/products/statesman-002-1.jpg",
+        "/images/products/statesman-002-2.jpg",
+        "/images/products/statesman-002-3.jpg"
+      ],
+      "weaver": {
+        "id": "weaver-003",
+        "name": "Malik Hassan",
+        "region": "Nalerigu, Northern Region",
+        "yearsExperience": 22
+      },
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "materials": "100% handwoven cotton",
+      "construction": "Traditional double-weave with premium finishing",
+      "careInstructions": "Hand wash in cool water. Air dry flat. Iron on medium heat with steam.",
+      "symbolism": "Deep burgundy signifies power, dignity, and cultural pride across African societies.",
+      "featured": true
+    },
+    {
+      "id": "future-001",
+      "name": "Modern Minimal Smock Shirt",
+      "collection": "future",
+      "price": 950,
+      "priceCurrency": "GHS",
+      "description": "Contemporary interpretation of the traditional smock reimagined as a luxury casual shirt. Smock fabric with modern tailoring—perfect for bridging heritage and contemporary global fashion.",
+      "images": [
+        "/images/products/future-001-1.jpg",
+        "/images/products/future-001-2.jpg",
+        "/images/products/future-001-3.jpg"
+      ],
+      "weaver": {
+        "id": "weaver-001",
+        "name": "Alhaji Mohammed",
+        "region": "Tamale, Northern Region",
+        "yearsExperience": 30
+      },
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "materials": "100% handwoven cotton with contemporary tailoring",
+      "construction": "Traditional weave + modern cut",
+      "careInstructions": "Hand wash or gentle machine wash. Air dry. Iron on medium heat.",
+      "symbolism": "Bridges ancestral craft with contemporary global consciousness.",
+      "featured": true
+    },
+    {
+      "id": "heritage-002",
+      "name": "Forest Green Heritage",
+      "collection": "heritage",
+      "price": 600,
+      "priceCurrency": "GHS",
+      "description": "Vibrant forest green traditional smock with geometric patterns. A ceremonial piece that celebrates the richness of natural dyes and traditional weaving techniques.",
+      "images": [
+        "/images/products/heritage-002-1.jpg",
+        "/images/products/heritage-002-2.jpg"
+      ],
+      "weaver": {
+        "id": "weaver-004",
+        "name": "Amina Musa",
+        "region": "Tamale, Northern Region",
+        "yearsExperience": 18
+      },
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "materials": "100% handwoven cotton",
+      "construction": "Double-weave traditional technique",
+      "careInstructions": "Hand wash in cool water. Air dry flat. Iron on medium heat with steam.",
+      "symbolism": "Green represents growth, renewal, and connection to nature.",
+      "featured": false
+    }
+  ]
+}

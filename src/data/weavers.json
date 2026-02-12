@@ -1,0 +1,84 @@
+{
+  "weavers": [
+    {
+      "id": "weaver-001",
+      "name": "Alhaji Mohammed",
+      "age": 58,
+      "region": "Tamale, Northern Region",
+      "yearsExperience": 30,
+      "specialization": "Double-weave indigo and traditional patterns",
+      "bio": "Alhaji Mohammed is a master weaver representing the third generation of his family's weaving tradition. For three decades, he has perfected the ancient double-weave technique, creating fabrics of extraordinary depth and durability. His indigo pieces are particularly renowned for their rich color and textural complexity.",
+      "portraitImage": "/images/weavers/alhaji-mohammed.jpg",
+      "processImages": [
+        "/images/process/alhaji-1.jpg",
+        "/images/process/alhaji-2.jpg",
+        "/images/process/alhaji-3.jpg"
+      ],
+      "story": "Born into a weaving family, Alhaji learned the craft from his grandfather at age seven. He studied under the master weavers of Tamale, mastering not just the technical skills but the cultural knowledge embedded in each pattern. Every motif in his work tells a story—of his ancestors, his community, and his vision for the future of Ghanaian craftsmanship. Alhaji believes that weaving is meditation, a way of slowing down in a fast world. He sources his cotton locally and uses natural dyes whenever possible. His double-weave technique, which takes months to perfect, creates fabric that improves with age and wear.",
+      "products": ["heritage-001", "future-001"],
+      "socialLinks": {
+        "whatsapp": "+233XXXXXXXXX"
+      }
+    },
+    {
+      "id": "weaver-002",
+      "name": "Hajia Zainab",
+      "age": 52,
+      "region": "Bolgatanga, Upper East Region",
+      "yearsExperience": 25,
+      "specialization": "Single-weave professional wear, refined finishes",
+      "bio": "Hajia Zainab is a pioneering female master weaver who has brought contemporary sensibilities to traditional craft. Her work combines ancestral knowledge with a modern eye for proportion and finish. She is known throughout Northern Ghana for the impeccable quality and elegance of her pieces.",
+      "portraitImage": "/images/weavers/hajia-zainab.jpg",
+      "processImages": [
+        "/images/process/hajia-1.jpg",
+        "/images/process/hajia-2.jpg",
+        "/images/process/hajia-3.jpg"
+      ],
+      "story": "Hajia Zainab began weaving at sixteen, initially learning from her mother. But she had a vision—to create smocks that would honor tradition while meeting the demands of modern professional life. She studied design principles and traveled to learn from weavers across Ghana and beyond. Today, she mentors young weavers, particularly young women seeking to preserve the craft. Her pieces are favored by government officials and corporate leaders who seek authentic African wear that commands respect in international settings.",
+      "products": ["statesman-001"],
+      "socialLinks": {
+        "whatsapp": "+233XXXXXXXXX"
+      }
+    },
+    {
+      "id": "weaver-003",
+      "name": "Malik Hassan",
+      "age": 48,
+      "region": "Nalerigu, Northern Region",
+      "yearsExperience": 22,
+      "specialization": "Double-weave luxury finishes, color innovation",
+      "bio": "Malik Hassan is an innovator within tradition. While deeply rooted in ancestral techniques, he experiments with color combinations and pattern variations that create pieces of striking sophistication. His work attracts collectors and cultural leaders seeking something rare.",
+      "portraitImage": "/images/weavers/malik-hassan.jpg",
+      "processImages": [
+        "/images/process/malik-1.jpg",
+        "/images/process/malik-2.jpg",
+        "/images/process/malik-3.jpg"
+      ],
+      "story": "Malik grew up watching his father weave and knew from childhood that this was his calling. But rather than simply replicate what came before, he asked: 'How can I honor my heritage while creating something new?' He studied chemistry to understand dyes better. He experimented with thread weights and weaving speeds. The result is work that feels both ancient and contemporary. His burgundy pieces, in particular, have become signature items for CEOs and cultural ambassadors seeking to make a statement without words.",
+      "products": ["statesman-002"],
+      "socialLinks": {
+        "whatsapp": "+233XXXXXXXXX"
+      }
+    },
+    {
+      "id": "weaver-004",
+      "name": "Amina Musa",
+      "age": 40,
+      "region": "Tamale, Northern Region",
+      "yearsExperience": 18,
+      "specialization": "Geometric patterns, ceremonial pieces",
+      "bio": "Amina Musa is a talented weaver whose geometric patterns show remarkable precision and creativity. At 40, with 18 years of experience, she represents a new generation bringing fresh energy to ancient traditions while maintaining uncompromising quality standards.",
+      "portraitImage": "/images/weavers/amina-musa.jpg",
+      "processImages": [
+        "/images/process/amina-1.jpg",
+        "/images/process/amina-2.jpg",
+        "/images/process/amina-3.jpg"
+      ],
+      "story": "Amina learned weaving from her aunt and quickly showed exceptional aptitude for complex geometric patterns. Over nearly two decades, she has developed her signature style—clean lines, bold color combinations, and impeccable execution. She weaves for ceremonial occasions and creates pieces that become heirlooms. Her work is featured in homes and institutions across Ghana and the diaspora.",
+      "products": ["heritage-002"],
+      "socialLinks": {
+        "whatsapp": "+233XXXXXXXXX"
+      }
+    }
+  ]
+}

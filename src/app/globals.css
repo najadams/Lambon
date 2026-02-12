@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   JIMBA Brand Styles
+   Premium Ghanaian Heritage Smock Brand
+   ============================================ */
+
+:root {
+  /* Brand Colors */
+  --color-primary: #8b4513;
+  --color-secondary: #d2691e;
+  --color-accent: #c41e3a;
+  --color-gold: #d4af37;
+
+  /* Neutrals */
+  --color-white: #ffffff;
+  --color-off-white: #f8f7f5;
+  --color-gray-light: #e8e6e1;
+  --color-gray-medium: #8b8680;
+  --color-dark: #1a1815;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-off-white);
+  color: var(--color-dark);
+}
+
+/* Selection Colors */
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+/* Focus States */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Typography Refinements */
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display text-dark;
+    text-wrap: balance;
+  }
+
+  p {
+    @apply font-body text-body-lg;
+    text-wrap: pretty;
+  }
+}
+
+/* Custom Utility Classes */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-delay-100 {
+    animation-delay: 0.1s;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 0.2s;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 0.3s;
+  }
+
+  .animate-delay-400 {
+    animation-delay: 0.4s;
+  }
+}
+
+/* Section Spacing - Generous breathing room */
+@layer components {
+  .section-padding {
+    @apply px-6 py-16 md:px-8 md:py-24 lg:px-12 lg:py-32;
+  }
+
+  .section-padding-y {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .container-narrow {
+    @apply mx-auto max-w-3xl px-6;
+  }
+
+  .container-wide {
+    @apply mx-auto max-w-7xl px-6 md:px-8;
+  }
+}
+
+/* Button Base Styles */
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 font-sans text-sm font-medium tracking-wide transition-all duration-300 ease-out;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary text-white hover:bg-primary/90;
+  }
+
+  .btn-outline {
+    @apply btn border border-dark text-dark hover:bg-dark hover:text-white;
+  }
+
+  .btn-ghost {
+    @apply btn text-dark hover:text-primary;
+  }
+}
+
+/* Link Styles */
+@layer components {
+  .link-underline {
+    @apply relative inline-block;
+  }
+
+  .link-underline::after {
+    content: "";
+    @apply absolute bottom-0 left-0 h-px w-0 bg-current transition-all duration-300;
+  }
+
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+}
+
+/* Image Hover Effects */
+@layer components {
+  .img-hover-zoom {
+    @apply overflow-hidden;
+  }
+
+  .img-hover-zoom img {
+    @apply transition-transform duration-700 ease-out;
+  }
+
+  .img-hover-zoom:hover img {
+    @apply scale-105;
+  }
+}
+
+/* Mobile Touch Targets */
+@media (pointer: coarse) {
+  button,
+  a {
+    min-height: 48px;
+    min-width: 48px;
+  }
+}
