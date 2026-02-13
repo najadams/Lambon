@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import weaversData from "@/data/weavers.json";
 import { products } from "@/lib/data";
 
@@ -150,12 +151,14 @@ export const WeaversGrid = () => {
                           {weaverProducts.slice(0, 3).map((product) => (
                             <div
                               key={product.id}
-                              className="w-8 h-8 rounded-full bg-stone-100 border-2 border-white overflow-hidden"
+                              className="w-8 h-8 rounded-full bg-stone-100 border-2 border-white overflow-hidden relative"
                             >
-                              <img
+                              <Image
                                 src={product.image}
                                 alt={product.name}
-                                className="w-full h-full object-contain"
+                                fill
+                                className="object-contain"
+                                sizes="32px"
                               />
                             </div>
                           ))}

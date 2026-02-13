@@ -2,6 +2,7 @@
 
 import { products, type Product } from "@/lib/data";
 import { motion, useScroll } from "framer-motion";
+import Image from "next/image";
 import { useRef } from "react";
 
 const ProductSection = ({ product, index }: { product: Product; index: number }) => {
@@ -63,10 +64,12 @@ const ProductSection = ({ product, index }: { product: Product; index: number })
                layoutId={`product-${product.id}`}
                className="relative w-full h-full flex items-center justify-center"
              >
-               <img 
+               <Image 
                  src={product.image} 
                  alt={product.name}
-                 className="object-contain w-full h-full drop-shadow-2xl"
+                 fill
+                 className="object-contain drop-shadow-2xl"
+                 sizes="(max-width: 768px) 100vw, 50vw"
                />
              </motion.div>
         </div>

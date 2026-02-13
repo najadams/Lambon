@@ -3,6 +3,7 @@
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import { useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { type Product, products } from "@/lib/data";
 import { BRAND } from "@/lib/constants";
 import weaversData from "@/data/weavers.json";
@@ -153,10 +154,12 @@ export const ProductDetail = ({ product }: ProductDetailProps) => {
                   }}
                   transition={{ type: "spring", stiffness: 300, damping: 30 }}
                 >
-                  <img
+                  <Image
                     src={product.image}
                     alt={product.name}
-                    className="max-h-full object-contain drop-shadow-2xl"
+                    fill
+                    className="object-contain drop-shadow-2xl"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </motion.div>
 
@@ -493,10 +496,12 @@ export const ProductDetail = ({ product }: ProductDetailProps) => {
                   whileHover={{ scale: 2 }}
                   transition={{ type: "spring", stiffness: 200, damping: 20 }}
                 >
-                  <img
+                  <Image
                     src={product.image}
                     alt={detail.label}
-                    className="max-h-full object-contain drop-shadow-lg"
+                    fill
+                    className="object-contain drop-shadow-lg"
+                    sizes="33vw"
                   />
                 </motion.div>
 
@@ -541,10 +546,12 @@ export const ProductDetail = ({ product }: ProductDetailProps) => {
                     <div
                       className={`aspect-[4/3] bg-gradient-to-br ${collectionColors.gradient} rounded-lg overflow-hidden relative flex items-center justify-center p-8 mb-4`}
                     >
-                      <img
+                      <Image
                         src={related.image}
                         alt={related.name}
-                        className="max-h-full object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"
+                        fill
+                        className="object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"
+                        sizes="(max-width: 768px) 100vw, 50vw"
                       />
                     </div>
                     <h3 className="font-display text-xl text-dark group-hover:text-primary transition-colors">

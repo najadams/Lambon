@@ -71,4 +71,28 @@ export const products: Product[] = [
     symbolism: "Length and volume signify the weight of responsibility.",
     construction: "Heavy cotton drill, full volume",
   },
+  {
+    id: "heritage-003",
+    name: "Warrior's Tunic",
+    collection: "heritage",
+    collectionName: "Heritage Line",
+    price: 680,
+    // Using the ac8f... image
+    image: "/images/products/reference/ac8f288c3adc8a1031a3b9f4d63d8d5b-removebg-preview.png",
+    description: "A bold, structured tunic design inspired by traditional warrior attire. Features intricate embroidery protecting the chest and back.",
+    symbolism: "Strength, courage, and spiritual fortification.",
+    construction: "Heavy-weight cotton, protective weave",
+  },
+  {
+    id: "future-002",
+    name: "Sahelian Elegance",
+    collection: "future",
+    collectionName: "Future Line",
+    price: 920,
+    // Using the female2 image
+    image: "/images/products/reference/female2-removebg-preview.png",
+    description: "A contemporary fusion piece that brings the breeze of the Sahel to modern fashion. Effortlessly chic and deeply rooted.",
+    symbolism: "Grace and adaptability.",
+    construction: "Lightweight strip weave",
+  },
 ];

@@ -13,7 +13,7 @@
       },
       "priceTier": "Essence",
       "targetAudience": "Early professionals seeking accessible premium heritage",
-      "heroImage": "/images/collections/heritage-hero.jpg",
+      "heroImage": "/images/products/reference/smock_batakari_authentic.jpg",
       "description_short": "Traditional silhouettes for ceremonies and authority",
       "products": ["heritage-001", "heritage-002"],
       "keyBenefits": [
@@ -39,7 +39,7 @@
       },
       "priceTier": "Signature",
       "targetAudience": "Leaders, executives, professionals in institutions",
-      "heroImage": "/images/collections/statesman-hero.jpg",
+      "heroImage": "/images/products/reference/08994dd54fd90dec0d1460e9451b2583.jpg",
       "description_short": "Refined professional wear for offices and institutions",
       "products": ["statesman-001", "statesman-002"],
       "keyBenefits": [
@@ -66,7 +66,7 @@
       },
       "priceTier": "Premier",
       "targetAudience": "Institutions, gifting, cultural collectors",
-      "heroImage": "/images/collections/future-hero.jpg",
+      "heroImage": "/images/products/reference/e5b7acca11122862826ab857fb52fd90.jpg",
       "description_short": "Contemporary global fashion using smock fabric",
       "products": ["future-001"],
       "keyBenefits": [

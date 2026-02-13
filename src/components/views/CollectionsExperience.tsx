@@ -3,6 +3,7 @@
 import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import collectionsData from "@/data/collections.json";
 import { products } from "@/lib/data";
 
@@ -88,10 +89,12 @@ const CollectionSection = ({
                       : "bottom-8 left-8 w-28 h-36"
                   } bg-white/10 backdrop-blur-sm rounded-lg p-2 shadow-lg`}
                 >
-                  <img
+                  <Image
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-contain drop-shadow-lg"
+                    fill
+                    className="object-contain drop-shadow-lg"
+                    sizes="(max-width: 768px) 33vw, 20vw"
                   />
                 </motion.div>
               ))}

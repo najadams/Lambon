@@ -3,6 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { products } from "@/lib/data";
 import { BRAND } from "@/lib/constants";
 import weaversData from "@/data/weavers.json";
@@ -470,10 +471,12 @@ export const WeaverDetail = ({ weaver }: WeaverDetailProps) => {
                             backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23D4AF37' fill-opacity='0.3' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E")`,
                           }}
                         />
-                        <img
+                        <Image
                           src={product.image}
                           alt={product.name}
-                          className="relative z-10 max-h-full object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"
+                          fill
+                          className="z-10 object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"
+                          sizes="(max-width: 768px) 100vw, 33vw"
                         />
 
                         {/* Collection badge */}

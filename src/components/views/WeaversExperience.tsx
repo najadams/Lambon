@@ -3,6 +3,7 @@
 import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import weaversData from "@/data/weavers.json";
 import { products } from "@/lib/data";
 
@@ -304,11 +305,13 @@ const WeaverSection = ({
                     key={product.id}
                     className="bg-stone-100 rounded-lg p-3 flex items-center gap-3"
                   >
-                    <div className="w-12 h-12 bg-stone-200 rounded overflow-hidden flex-shrink-0">
-                      <img
+                    <div className="w-12 h-12 bg-stone-200 rounded overflow-hidden flex-shrink-0 relative">
+                      <Image
                         src={product.image}
                         alt={product.name}
-                        className="w-full h-full object-contain"
+                        fill
+                        className="object-contain"
+                        sizes="48px"
                       />
                     </div>
                     <div>

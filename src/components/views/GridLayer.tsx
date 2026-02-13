@@ -2,6 +2,7 @@
 
 import { products } from "@/lib/data";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const GridLayer = () => {
   return (
@@ -25,10 +26,12 @@ export const GridLayer = () => {
             className="group cursor-pointer"
           >
             <div className={`aspect-[3/4] relative mb-4 rounded-lg overflow-hidden bg-stone-100 flex items-center justify-center p-4`}>
-               <img 
+               <Image 
                  src={product.image} 
                  alt={product.name}
-                 className="object-contain w-full h-full hover:scale-105 transition-transform duration-500 drop-shadow-lg"
+                 fill
+                 className="object-contain hover:scale-105 transition-transform duration-500 drop-shadow-lg"
+                 sizes="(max-width: 768px) 50vw, 33vw"
                />
             </div>
             

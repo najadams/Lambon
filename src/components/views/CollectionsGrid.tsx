@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import collectionsData from "@/data/collections.json";
 import { products } from "@/lib/data";
 
@@ -83,10 +84,12 @@ export const CollectionsGrid = () => {
                   {/* Floating product image */}
                   {collectionProducts[0] && (
                     <div className="absolute inset-x-8 bottom-8 top-1/3 flex items-center justify-center">
-                      <img
+                      <Image
                         src={collectionProducts[0].image}
                         alt={collectionProducts[0].name}
-                        className="max-h-full object-contain drop-shadow-2xl group-hover:scale-105 transition-transform duration-500"
+                        fill
+                        className="object-contain drop-shadow-2xl group-hover:scale-105 transition-transform duration-500"
+                        sizes="(max-width: 768px) 100vw, 33vw"
                       />
                     </div>
                   )}

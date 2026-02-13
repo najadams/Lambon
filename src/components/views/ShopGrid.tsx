@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
+import Image from "next/image";
 
 import { products, type Product } from "@/lib/data";
 import { BRAND } from "@/lib/constants";
@@ -51,10 +52,12 @@ const ProductCard = ({ product }: { product: Product }) => {
           }}
         />
 
-        <img
+        <Image
           src={product.image}
           alt={product.name}
-          className="relative z-10 max-h-full object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"
+          fill
+          className="z-10 object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
 
         {/* Collection badge */}
