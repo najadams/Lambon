@@ -82,7 +82,7 @@ const HeroSection = () => (
           Our Master Weavers
         </h1>
         <p className="text-xl text-off-white/80 font-body italic max-w-2xl mx-auto">
-          Every Daji piece carries the story of its weaver. Meet the artisans
+          Every Lambon piece carries the story of its weaver. Meet the artisans
           preserving centuries of Northern Ghanaian tradition.
         </p>
 

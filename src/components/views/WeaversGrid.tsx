@@ -43,7 +43,7 @@ export const WeaversGrid = () => {
           Our Master Weavers
         </h1>
         <p className="text-gray-medium font-body max-w-xl mx-auto">
-          Every Daji piece carries the story of its weaver. Meet the artisans
+          Every Lambon piece carries the story of its weaver. Meet the artisans
           preserving centuries of tradition.
         </p>
       </motion.div>
@@ -228,7 +228,7 @@ export const WeaversGrid = () => {
       >
         <h3 className="font-display text-xl mb-3">Support the Craft</h3>
         <p className="text-white/80 text-sm mb-6 max-w-lg mx-auto">
-          When you purchase a Daji piece, you directly support master weavers
+          When you purchase a Lambon piece, you directly support master weavers
           and help preserve a tradition that has survived for centuries.
         </p>
         <div className="flex items-center justify-center gap-4 flex-wrap">

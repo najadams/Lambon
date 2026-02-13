@@ -93,7 +93,7 @@ export const ExperienceLayer = () => {
       <div className="pt-20 pb-20">
          <div className="h-[50vh] flex items-center justify-center text-center px-4">
             <div className="space-y-4">
-                <span className="text-primary text-sm uppercase tracking-[0.2em]">The Daji Collection</span>
+                <span className="text-primary text-sm uppercase tracking-[0.2em]">The Lambon Collection</span>
                 <h1 className="text-display-hero font-display text-dark max-w-4xl">
                   Woven Heritage. Worn with Purpose.
                 </h1>

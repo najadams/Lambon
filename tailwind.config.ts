@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Brand Colors - Dark Luxury Theme (Daji - The Wilderness)
+        // Brand Colors - Dark Luxury Theme (Lambon - The Wilderness)
         primary: "#1A2F23", // Deep Forest Green
         secondary: "#3D2914", // Rich Earth
         accent: "#C5A059", // Muted Gold

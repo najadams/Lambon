@@ -28,13 +28,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Daji – Premium Ghanaian Smock Brand",
-    template: "%s | Daji",
+    default: "Lambon – Premium Ghanaian Smock Brand",
+    template: "%s | Lambon",
   },
   description:
     "The Wilderness. The Weaver. The Way. Discover authentic Northern Ghanaian handwoven smocks for professionals. Premium craftsmanship meeting modern leadership.",
   keywords: [
-    "Daji",
+    "Lambon",
     "Ghanaian smock",
     "heritage fashion",
     "African apparel",
@@ -46,28 +46,28 @@ export const metadata: Metadata = {
     "African professional",
     "cultural fashion",
   ],
-  authors: [{ name: "Daji" }],
-  creator: "Daji",
-  metadataBase: new URL("https://wear-daji.com"),
+  authors: [{ name: "Lambon" }],
+  creator: "Lambon",
+  metadataBase: new URL("https://wear-Lambon.com"),
   openGraph: {
-    title: "Daji – Premium Ghanaian Smock Brand",
+    title: "Lambon – Premium Ghanaian Smock Brand",
     description:
       "The Wilderness. The Weaver. The Way. Authentic Northern Ghanaian smocks for professionals.",
     type: "website",
     locale: "en_US",
-    siteName: "Daji",
+    siteName: "Lambon",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Daji - Premium Ghanaian Smock Brand",
+        alt: "Lambon - Premium Ghanaian Smock Brand",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Daji – Premium Ghanaian Smock Brand",
+    title: "Lambon – Premium Ghanaian Smock Brand",
     description: "The Wilderness. The Weaver. The Way.",
     images: ["/og-image.jpg"],
   },

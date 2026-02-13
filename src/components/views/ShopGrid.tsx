@@ -146,7 +146,7 @@ export const ShopGrid = () => {
         className="text-center mb-12"
       >
         <span className="text-primary text-sm uppercase tracking-[0.2em] block mb-4">
-          The Daji Collection
+          The Lambon Collection
         </span>
         <h1 className="text-display-sub font-display text-dark mb-4">
           Shop All Pieces

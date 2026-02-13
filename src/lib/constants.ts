@@ -1,11 +1,11 @@
 export const BRAND = {
-  name: "Daji",
+  name: "Lambon",
   tagline: "The Wilderness. The Weaver. The Way.",
   description:
     "Premium Northern Ghanaian smocks for professionals. Authentic handwoven craftsmanship meeting modern leadership.",
-  email: "hello@daji.com",
+  email: "hello@Lambon.com",
   whatsapp: "+233XXXXXXXXX",
-  instagram: "@wear_daji",
+  instagram: "@wear_Lambon",
 } as const;
 
 export const NAVIGATION = [

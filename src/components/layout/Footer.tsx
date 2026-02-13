@@ -83,7 +83,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-gray-medium/30 pt-8 md:flex-row">
           <p className="font-sans text-xs text-gray-medium">
-            &copy; {new Date().getFullYear()} Daji. All rights reserved.
+            &copy; {new Date().getFullYear()} Lambon. All rights reserved.
           </p>
           <p className="font-body text-xs italic text-gray-medium">
             Handwoven in Northern Ghana

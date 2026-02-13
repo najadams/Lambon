@@ -76,7 +76,7 @@ export const AboutGrid = () => {
           <p className="text-gray-light font-body leading-relaxed mb-6">
             For generations, master weavers of Northern Ghana have practiced an
             ancient art—transforming cotton into fabric that carries cultural
-            meaning, spiritual protection, and social status. Daji exists to
+            meaning, spiritual protection, and social status. Lambon exists to
             preserve this tradition economically, ensuring that weaving remains
             a viable livelihood while placing African identity inside modern
             power spaces.
@@ -215,7 +215,7 @@ export const AboutGrid = () => {
         transition={{ delay: 0.5 }}
         className="bg-primary text-white rounded-lg p-8 md:p-12 text-center"
       >
-        <h3 className="text-2xl font-display mb-4">The Daji Promise</h3>
+        <h3 className="text-2xl font-display mb-4">The Lambon Promise</h3>
         <div className="grid md:grid-cols-3 gap-8 mt-8">
           <div>
             <p className="text-gold text-sm uppercase tracking-wider mb-2">

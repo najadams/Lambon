@@ -76,19 +76,19 @@ export function BrandStory() {
             <div className="mt-6 space-y-4 font-body text-body-lg leading-relaxed text-gray-light">
               <p>
                 In the heart of Northern Ghana, beyond the bustling towns, lies
-                the <span className="text-white font-medium">Daji</span> — the
+                the <span className="text-white font-medium">Lambon</span> — the
                 royal forest, where nature teaches patience, rhythm, and
                 resilience.
               </p>
               <p>
                 Long before fast fashion, Northern weavers worked with the same
                 patience that the trees take to grow, threading history into every
-                strand of fugu. Daji is born from this legacy: each handwoven
+                strand of fugu. Lambon is born from this legacy: each handwoven
                 smock carries the rhythm of the loom, the story of a village, and
                 the dignity of a forest that preserves life across generations.
               </p>
               <p className="font-semibold text-white">
-                &ldquo;Wearing Daji is stepping into a living story.&rdquo;
+                &ldquo;Wearing Lambon is stepping into a living story.&rdquo;
               </p>
             </div>
 
