@@ -3,8 +3,8 @@ export const BRAND = {
   tagline: "The Wilderness. The Weaver. The Way.",
   description:
     "Premium Northern Ghanaian smocks for professionals. Authentic handwoven craftsmanship meeting modern leadership.",
-  email: "hello@Lambon.com",
-  whatsapp: "+233XXXXXXXXX",
+  email: "najm@lambon.com",
+  whatsapp: "+233555547984",
   instagram: "@wear_Lambon",
 } as const;
 
