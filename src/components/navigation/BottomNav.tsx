@@ -20,7 +20,7 @@ export const BottomNav = () => {
   ];
 
   return (
-    <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 flex justify-center items-end">
+    <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 hidden md:flex justify-center items-end">
       <motion.nav
         layout
         onHoverStart={() => setIsExpanded(true)}
