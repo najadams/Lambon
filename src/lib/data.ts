@@ -64,7 +64,7 @@ export const products: Product[] = [
     name: "Grand Durbar Smock",
     collection: "heritage",
     collectionName: "Heritage Line",
-    price: 1200,
+    price: 1800,
     // Using the 'long' image which likely is a full gown/smock
     image: "/images/products/reference/long-removebg-preview.png",
     description: "A full-length ceremonial gown for the most important occasions. Used by chiefs and elders during the Grand Durbar.",
@@ -76,7 +76,7 @@ export const products: Product[] = [
     name: "Warrior's Tunic",
     collection: "heritage",
     collectionName: "Heritage Line",
-    price: 680,
+    price: 880,
     // Using the ac8f... image
     image: "/images/products/reference/ac8f288c3adc8a1031a3b9f4d63d8d5b-removebg-preview.png",
     description: "A bold, structured tunic design inspired by traditional warrior attire. Features intricate embroidery protecting the chest and back.",
